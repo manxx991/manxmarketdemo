@@ -1,0 +1,16 @@
+@import '../../public/assets/css/style.css';
+
+/* Improve Laravel disabled pagination contrast in dark theme. */
+html.dark [class~="dark:text-gray-600"],
+html.dark .cursor-default.text-gray-500 {
+    color: #94a3b8 !important;
+}
+
+html.dark .cursor-default.text-gray-500.bg-white {
+    background-color: #1e293b !important;
+    border-color: #475569 !important;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

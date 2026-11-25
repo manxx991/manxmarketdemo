@@ -1,0 +1,25 @@
+# MANXMARKET POS & Grosir System
+
+> Sistem Point of Sale (POS) & Manajemen Toko Grosir Modern Terintegrasi.
+
+## Application Architecture
+- Framework: Laravel 10 (PHP 8.1 / MySQL 8 InnoDB)
+- Frontend: Blade, Tailwind CSS, Vanilla JS PosEngine
+- Design System: Neutral Operational System (High Contrast Light & Dark)
+
+## Halaman Utama Sistem
+
+- [Portal Masuk (Login)](http://manxmarket.test/login): Halaman otentikasi pengguna berdasarkan peran (Owner, Kasir, Gudang, Pembeli).
+- [Kasir (POS) Grosir](http://manxmarket.test/pos): Meja kasir interaktif dengan katalog SKU, auto-scanner F2, perhitungan diskon grosir otomatis, QRIS dinamis, dan cetak struk thermal.
+- [Stok & Mutasi Gudang](http://manxmarket.test/inventory): Katalog produk, kartu stok masuk/keluar, dan penyesuaian opname fisik.
+- [Riwayat Transaksi & Void](http://manxmarket.test/transactions): Audit riwayat nota penjualan, cetak ulang struk thermal, dan pembatalan transaksi (void).
+- [Buku Kasbon & Piutang](http://manxmarket.test/receivables): Pelacakan saldo piutang tempo, monitoring plafon kredit, dan pencatatan cicilan.
+- [Laporan & Analitik Keuangan](http://manxmarket.test/reports): Dashboard eksekutif omzet, HPP, laba kotor, metode pembayaran, dan ekspor CSV.
+- [Portal Pembeli](http://manxmarket.test/portal): Ringkasan plafon kredit, daftar tagihan jatuh tempo, riwayat belanja, dan katalog harga grosir.
+- [Manajemen Role & User](http://manxmarket.test/roles): Pengelolaan akun pengguna, hak akses peran, dan aktivasi akun.
+- [Pengaturan Toko & QRIS](http://manxmarket.test/settings): Konfigurasi identitas toko, footer struk thermal, dan payload QRIS statis merchant ASPI.
+
+## Standar Aksesibilitas & Browsing Agen
+
+- [Sitemap XML](http://manxmarket.test/sitemap.xml): Peta struktur URL aplikasi.
+- [Robots Policy](http://manxmarket.test/robots.txt): Kebijakan perayapan standar web.
